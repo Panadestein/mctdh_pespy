@@ -80,7 +80,7 @@ def hono_pes(args):
     """Computes the values as a Sum of Products of terms present in the
     PES section of the MCTDH operator file. Here the use of eval() built-in
     function if the func_ev(dof) global namespace is something to improve"""
-    r_2, r_3, r_1 = args[0], args[1], = args[2]
+    r_2, r_3, r_1 = args[0], args[1], args[2]
     t_2, t_1 = np.cos(args[3]), np.cos(args[4])
     p_1 = args[5]
     pot = 0.0
